@@ -26,8 +26,10 @@
     "url": "https://github.com/onja-madagascar/css-tailwind-capstone"
   },
   "homepage": "https://github.com/onja-madagascar/css-tailwind-capstone#readme",
-  "devDependencies": {},
-  "dependencies": {},
+  "dependencies": {
+    "-": "^0.0.1",
+    "@anthropic-ai/claude-code": "^1.0.56"
+  },
   "engines": {
     "node": ">=12.0.0"
   },
@@ -63,8 +65,19 @@
   },
   "culturalNotes": {
     "madagascar": {
-      "artists": ["Rossy", "Tarika", "Jaojoby", "Erick Manana", "Samoëla"],
-      "musicGenres": ["Salegy", "Tsapiky", "Hiragasy", "Contemporary Malagasy"],
+      "artists": [
+        "Rossy",
+        "Tarika",
+        "Jaojoby",
+        "Erick Manana",
+        "Samoëla"
+      ],
+      "musicGenres": [
+        "Salegy",
+        "Tsapiky",
+        "Hiragasy",
+        "Contemporary Malagasy"
+      ],
       "location": "Nosy Be - Beautiful island destination",
       "language": "Malagasy phrases included for authenticity"
     }

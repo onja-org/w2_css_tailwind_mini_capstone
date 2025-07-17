@@ -175,7 +175,6 @@ Use Unsplash for high-quality placeholders:
 
 ### Cultural Authenticity
 - [ ] Malagasy artists prominently featured
-- [ ] Cultural references feel natural
 - [ ] Color scheme honors flag colors
 - [ ] Local venue (Nosy Be) highlighted
 - [ ] Respectful representation of culture
@@ -193,8 +192,7 @@ Use Unsplash for high-quality placeholders:
 2. **Use Real Content**: Replace placeholder text with realistic festival information
 3. **Be Consistent**: Stick to the established patterns throughout
 4. **Performance Matters**: Optimize images and avoid overly complex layouts
-5. **Cultural Sensitivity**: Research Malagasy culture to ensure respectful representation
-6. **User Experience**: Think about what festival-goers actually need to know
+5. **User Experience**: Think about what festival-goers actually need to know
 
 ## 🚀 Stretch Goal Ideas
 
@@ -214,4 +212,4 @@ Use Unsplash for high-quality placeholders:
 - Sustainability and social impact information
 - Photo galleries from previous festivals
 
-Remember: The goal is to create a website that makes people excited about attending SoundWave Festival while showcasing the beauty and culture of Madagascar! 🇲🇬
+Remember: The goal is to create a fun website with Tailwind while showcasing the beauty and culture of Madagascar! 🇲🇬

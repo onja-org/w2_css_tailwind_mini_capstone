@@ -104,7 +104,6 @@ Your website must look amazing on:
 2. **Read the guidelines**: `starter-files/guidelines.md` has design specs
 3. **Use the browser**: Right-click → Inspect to see what's happening
 4. **Test frequently**: Refresh your browser after each change
-5. **Ask for help**: Your instructors are here to support you!
 
 ### Useful Resources:
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
@@ -127,11 +126,10 @@ You'll know you've succeeded when:
 - ✅ All sections are complete and visually appealing
 - ✅ Hover effects and interactions work smoothly
 - ✅ The design celebrates both modern web design and Malagasy culture
-- ✅ You feel proud to show it to your friends and family!
 
 ## 🌟 Ready to Start?
 
-Take a deep breath, get your favorite beverage, and let's build something amazing together! 
+Take a deep breath and let's build something amazing together!
 
 **Your first step**: Open `starter-files/index.html` in your text editor and browser, then start with the Hero Section.
 
