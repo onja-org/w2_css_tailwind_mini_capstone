@@ -1,0 +1,72 @@
+{
+  "name": "soundwave-festival-tailwind-capstone",
+  "version": "1.0.0",
+  "description": "SoundWave Festival 2025 - Tailwind CSS Mini Capstone Project for Madagascar students",
+  "main": "starter-files/index.html",
+  "scripts": {
+    "start": "echo 'Open starter-files/index.html in your web browser to begin!' && echo 'For live development, consider using Live Server extension in VS Code'",
+    "test": "echo 'Testing checklist: Open tests/visual-checklist.md and verify each item manually in your browser'",
+    "serve": "python3 -m http.server 8000 || python -m http.server 8000 || echo 'Install Python to use local server, or open index.html directly in browser'",
+    "validate": "echo 'Manual validation: 1) Open browser dev tools, 2) Check responsive design, 3) Verify no console errors, 4) Test all breakpoints'"
+  },
+  "keywords": [
+    "tailwind",
+    "css",
+    "responsive",
+    "festival",
+    "madagascar",
+    "capstone",
+    "beginner",
+    "web-development"
+  ],
+  "author": "Onja Madagascar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onja-madagascar/css-tailwind-capstone"
+  },
+  "homepage": "https://github.com/onja-madagascar/css-tailwind-capstone#readme",
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "config": {
+    "tailwind_version": "3.x",
+    "recommended_browser": "Chrome, Firefox, Safari, or Edge",
+    "development_server": "Live Server (VS Code extension) or Python http.server"
+  },
+  "studentInstructions": {
+    "setup": [
+      "1. Open starter-files/index.html in VS Code or your preferred editor",
+      "2. Open the same file in your web browser",
+      "3. Keep both open side by side for live editing",
+      "4. Follow the instructions in the HTML comments"
+    ],
+    "testing": [
+      "1. Run 'npm test' to see the manual testing checklist",
+      "2. Open browser dev tools (F12) to inspect elements",
+      "3. Test responsive design by resizing browser window",
+      "4. Use device simulation in dev tools for mobile testing"
+    ],
+    "help": [
+      "- Read README.md for complete project overview",
+      "- Check guidelines.md for design specifications",
+      "- Use tests/visual-checklist.md to verify your progress",
+      "- solution/ folder contains complete reference (use only if stuck!)"
+    ]
+  },
+  "culturalNotes": {
+    "madagascar": {
+      "artists": ["Rossy", "Tarika", "Jaojoby", "Erick Manana", "Samoëla"],
+      "musicGenres": ["Salegy", "Tsapiky", "Hiragasy", "Contemporary Malagasy"],
+      "location": "Nosy Be - Beautiful island destination",
+      "language": "Malagasy phrases included for authenticity"
+    }
+  }
+}

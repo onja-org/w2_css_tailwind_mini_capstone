@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundWave Festival 2025 - Madagascar's Premier Music Festival</title>
+
+    <!-- Tailwind CSS CDN - This gives us all the utility classes! -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts for beautiful typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Custom Tailwind configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'festival-red': '#DC2626',
+                        'festival-green': '#059669',
+                        'festival-orange': '#EA580C',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans">
+
+    <!--
+    ====================================
+    PHASE 1: HERO SECTION (45 minutes)
+    ====================================
+
+    Your first task: Create an amazing hero section!
+
+    Requirements:
+    - Full viewport height (hint: use h-screen)
+    - Background image of festival/beach scene
+    - Dark overlay for text readability
+    - Festival logo and title
+    - Compelling headline about the festival
+    - Date and location information
+    - Call-to-action button
+    - Should look great on mobile and desktop
+
+    Useful Tailwind classes to research:
+    - h-screen (full height)
+    - bg-cover, bg-center (background images)
+    - flex items-center justify-center (centering)
+    - text-white, text-4xl, text-6xl (typography)
+    - bg-gradient-to-r (gradients)
+    - px-4, py-2 (padding)
+    - rounded-lg (rounded corners)
+
+    Color palette (already configured above):
+    - festival-red
+    - festival-green
+    - festival-orange
+    -->
+
+    <header id="hero" class="relative h-screen">
+        <!-- TODO: Add background image -->
+        <!-- Hint: Use bg-[url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')] -->
+
+        <!-- TODO: Add dark overlay for text readability -->
+        <!-- Hint: Use absolute positioning and bg-black/50 for semi-transparent overlay -->
+
+        <!-- TODO: Add content container -->
+        <!-- Hint: Center everything with flex items-center justify-center h-full -->
+
+            <!-- TODO: Add festival logo/title -->
+            <!-- Example: <h1 class="text-6xl font-bold text-white mb-4">🎵 SoundWave</h1> -->
+
+            <!-- TODO: Add subtitle -->
+            <!-- Example: <p class="text-xl text-gray-200 mb-2">Madagascar's Premier Music Festival</p> -->
+
+            <!-- TODO: Add date and location -->
+            <!-- Example: <p class="text-lg text-gray-300 mb-8">July 15-17, 2025 • Nosy Be, Madagascar</p> -->
+
+            <!-- TODO: Add call-to-action button -->
+            <!-- Hint: Use bg-festival-red hover:bg-red-700 px-8 py-3 rounded-lg text-white font-semibold -->
+
+    </header>
+
+    <!--
+    ====================================
+    PHASE 2: NAVIGATION (30 minutes)
+    ====================================
+
+    Create a sticky navigation bar that appears over the hero
+
+    Requirements:
+    - Sticky positioning (stays at top when scrolling)
+    - Festival logo on the left
+    - Menu items on the right
+    - Responsive (stack vertically on mobile)
+    - Semi-transparent background
+    - Smooth hover effects
+
+    Menu items: Lineup, Schedule, Tickets, About
+
+    Useful classes:
+    - fixed top-0 w-full (sticky positioning)
+    - bg-white/90 or bg-black/80 (semi-transparent)
+    - backdrop-blur-sm (modern blur effect)
+    - flex justify-between items-center (layout)
+    - hidden md:flex (responsive visibility)
+    -->
+
+    <nav id="navigation" class="">
+        <!-- TODO: Add navigation container -->
+        <!-- TODO: Add logo -->
+        <!-- TODO: Add menu items -->
+        <!-- TODO: Make it responsive -->
+    </nav>
+
+    <!--
+    ====================================
+    PHASE 3: ARTIST LINEUP (60 minutes)
+    ====================================
+
+    Showcase the amazing artists performing at SoundWave Festival!
+    Include both international stars and beloved Malagasy musicians.
+
+    Requirements:
+    - Section title and description
+    - Grid of artist cards (4 columns on desktop, fewer on mobile)
+    - Each card has: photo, name, genre, performance day
+    - Hover effects (scale, shadow, etc.)
+    - Mix of international and Malagasy artists
+
+    Featured Artists (feel free to add more!):
+    International: Daft Punk, Burna Boy, Alicia Keys, Ed Sheeran
+    Malagasy: Rossy, Tarika, Jaojoby, Erick Manana, Samoëla
+
+    Useful classes:
+    - grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 (responsive grid)
+    - transform hover:scale-105 (hover animations)
+    - transition-all duration-300 (smooth animations)
+    - shadow-lg hover:shadow-xl (shadow effects)
+    -->
+
+    <section id="lineup" class="py-16 px-4">
+        <div class="max-w-6xl mx-auto">
+            <!-- TODO: Add section title -->
+            <h2 class="">Artist Lineup</h2>
+
+            <!-- TODO: Add section description -->
+            <p class="">Featuring incredible artists from Madagascar and around the world</p>
+
+            <!-- TODO: Create artist grid -->
+            <div class="grid">
+
+                <!-- Example artist card - you'll need to create 8-10 of these -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <!-- TODO: Add artist image -->
+                    <!-- Use: https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop -->
+
+                    <!-- TODO: Add artist info -->
+                    <div class="p-4">
+                        <!-- Artist name -->
+                        <h3 class="">Artist Name</h3>
+                        <!-- Genre -->
+                        <p class="">Genre</p>
+                        <!-- Performance day -->
+                        <span class="">Friday</span>
+                    </div>
+                </div>
+
+                <!-- TODO: Add more artist cards here -->
+                <!-- Remember to include Malagasy artists! -->
+
+            </div>
+        </div>
+    </section>
+
+    <!--
+    ====================================
+    PHASE 4: FESTIVAL SCHEDULE (45 minutes)
+    ====================================
+
+    Display the daily program in a mobile-friendly way
+
+    Requirements:
+    - Three days: Friday, Saturday, Sunday
+    - Multiple time slots per day
+    - Different stages: Main Stage, Beach Stage, Cultural Stage
+    - Responsive design (no traditional tables on mobile)
+    - Clear typography and spacing
+    - Highlight headlining acts
+
+    Useful classes:
+    - space-y-4 (consistent vertical spacing)
+    - grid gap-6 (grid with gaps)
+    - bg-gray-50 (subtle backgrounds)
+    - border-l-4 border-festival-red (accent borders)
+    -->
+
+    <section id="schedule" class="py-16 px-4 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+            <!-- TODO: Add section title -->
+            <h2 class="">Festival Schedule</h2>
+
+            <!-- TODO: Create day-by-day schedule -->
+            <!-- Hint: Use a grid with 3 columns on desktop, 1 on mobile -->
+
+            <div class="grid">
+
+                <!-- Friday Schedule -->
+                <div class="">
+                    <h3 class="">Friday, July 15</h3>
+
+                    <!-- TODO: Add time slots -->
+                    <div class="space-y-4">
+                        <!-- Example time slot -->
+                        <div class="bg-white p-4 rounded-lg">
+                            <div class="flex justify-between items-start">
+                                <div></div>
+                                    <p class="font-semibold">7:00 PM</p>
+                                    <p class="text-gray-600">Main Stage</p>
+                                </div>
+                                <div class="text-right">
+                                    <p class="font-bold">Rossy</p>
+                                    <p class="text-sm text-gray-500">Salegy Master</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TODO: Add more time slots -->
+                    </div>
+                </div>
+
+                <!-- TODO: Add Saturday and Sunday schedules -->
+
+            </div>
+        </div>
+    </section>
+
+    <!--
+    ====================================
+    PHASE 5: TICKET PRICING (45 minutes)
+    ====================================
+
+    Create compelling pricing cards for different ticket tiers
+
+    Requirements:
+    - Three tiers: General Admission, VIP, Ultimate Experience
+    - Price in Malagasy Ariary (Ar) and USD
+    - Feature lists for each tier
+    - "Most Popular" badge for VIP
+    - Clear call-to-action buttons
+    - Responsive grid layout
+
+    Pricing suggestions:
+    - GA: Ar 50,000 ($12 USD)
+    - VIP: Ar 120,000 ($30 USD) - Most Popular!
+    - Ultimate: Ar 200,000 ($50 USD)
+
+    Useful classes:
+    - relative (for positioning badges)
+    - -mt-px (slight positioning adjustments)
+    - ring-2 ring-festival-red (highlighted cards)
+    - text-3xl font-bold (pricing display)
+    -->
+
+    <section id="tickets" class="py-16 px-4">
+        <div class="max-w-6xl mx-auto">
+            <!-- TODO: Add section title -->
+            <h2 class="">Get Your Tickets</h2>
+
+            <!-- TODO: Add pricing grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <!-- General Admission -->
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <!-- TODO: Add ticket tier name -->
+                    <h3 class="">General Admission</h3>
+
+                    <!-- TODO: Add pricing -->
+                    <div class="">
+                        <span class="">Ar 50,000</span>
+                        <span class="">$12 USD</span>
+                    </div>
+
+                    <!-- TODO: Add features list -->
+                    <ul class="">
+                        <li>✓</li> 3-day festival access</li>
+                        <li>✓ All main performances</li>
+                        <li>✓ Food court access</li>
+                        <li>✓ Parking included</li>
+                    </ul>
+
+                    <!-- TODO: Add CTA button -->
+                    <button class="">Buy Now</button>
+                </div>
+
+                <!-- VIP (Most Popular) -->
+                <div class="bg-white rounded-lg shadow-xl p-6 ring-2 ring-festival-red relative">
+                    <!-- TODO: Add "Most Popular" badge -->
+                    <span class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-festival-red text-white px-3 py-1 rounded-full text-sm font-semibold">
+                        Most Popular
+                    </span>
+
+                    <!-- TODO: Complete VIP tier -->
+                    <!-- Price: Ar 120,000 ($30 USD) -->
+                    <!-- Additional features: VIP area, complimentary drinks, meet & greet -->
+                </div>
+
+                <!-- TODO: Add Ultimate Experience tier -->
+                <!-- Price: Ar 200,000 ($50 USD) -->
+                <!-- Premium features: Backstage access, private transport, premium meals -->
+
+            </div>
+        </div>
+    </section>
+
+    <!--
+    ====================================
+    PHASE 6: FOOTER & POLISH (30 minutes)
+    ====================================
+
+    Create a comprehensive footer with all important links and information
+
+    Requirements:
+    - Festival logo and description
+    - Quick links (navigation items)
+    - Social media links
+    - Contact information
+    - Sponsor/partner logos
+    - Copyright notice
+    - Clean, organized layout
+
+    Useful classes:
+    - bg-gray-900 text-white (dark footer)
+    - grid grid-cols-1 md:grid-cols-4 (footer columns)
+    - border-t border-gray-700 (subtle borders)
+    - hover:text-festival-orange (link hover effects)
+    -->
+
+    <footer class="bg-gray-900 text-white py-12 px-4">
+        <div class="max-w-6xl mx-auto">
+
+            <!-- TODO: Add main footer content -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+
+                <!-- Festival Info -->
+                <div class="">
+                    <!-- TODO: Add logo and description -->
+                    <h3 class="">🎵 SoundWave Festival</h3>
+                    <p class="">Madagascar's premier music festival celebrating local and international artists on the beautiful beaches of Nosy Be.</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="">
+                    <h4 class="">Quick Links</h4>
+                    <!-- TODO: Add navigation links -->
+                    <ul class="space-y-2">
+                        <li><a href="#lineup" class="">Artist Lineup</a></li>
+                        <!-- TODO: Add more links -->
+                    </ul>
+                </div>
+
+                <!-- Contact & Social -->
+                <div class="">
+                    <h4 class="">Connect With Us</h4>
+                    <!-- TODO: Add social media links -->
+                    <!-- TODO: Add contact information -->
+                </div>
+
+                <!-- Partners -->
+                <div class="">
+                    <h4 class="">Our Partners</h4>
+                    <!-- TODO: Add sponsor logos or names -->
+                    <p class="text-gray-400">Madagascar Tourism Board</p>
+                    <p class="text-gray-400">Air Madagascar</p>
+                    <p class="text-gray-400">Onja</p>
+                </div>
+
+            </div>
+
+            <!-- TODO: Add bottom border and copyright -->
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2025 SoundWave Festival. Made with ❤️ in Madagascar.</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <!--
+    ====================================
+    CONGRATULATIONS! 🎉
+    ====================================
+
+    If you've made it this far, you've built an amazing festival website!
+
+    STRETCH GOALS (if you have extra time):
+
+    1. Add smooth scroll behavior (hint: scroll-behavior: smooth in CSS)
+    2. Create hover animations for buttons and cards
+    3. Add a dark mode toggle using CSS custom properties
+    4. Include a FAQ section with CSS-only accordions
+    5. Add a photo gallery from previous festivals
+    6. Create a newsletter signup form (visual only)
+    7. Add accessibility improvements (alt text, focus states)
+    8. Optimize for print styles
+
+    DEBUGGING TIPS:
+    - Use browser dev tools (F12) to inspect elements
+    - Check the console for any errors
+    - Test on different screen sizes
+    - Validate your HTML structure
+
+    SHOW OFF YOUR WORK:
+    - Take screenshots of your finished website
+    - Test it on your phone
+    - Share it with friends and family
+    - Be proud of what you've built!
+
+    Misaotra betsaka! (Thank you very much!)
+    You've just created something amazing! 🌟
+    -->
+
+</body>
+</html>
