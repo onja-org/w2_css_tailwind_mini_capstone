@@ -1,7 +1,10 @@
 # 🎵 SoundWave Festival 2025 - Tailwind CSS Mini Capstone
 
-**Tongasoa! Welcome to your Tailwind CSS capstone project!**
+**Tongasoa! Welcome to your Tailwind CSS capstone project!**  
+Here's a preview of what you'll be building:
 
+<img src="assets/tailwind_mini_capstone_1.png" alt="Project Preview Image" width="400">
+    
 ## 🌟 About This Project
 
 You've been hired as a web developer to create the official website for **SoundWave Festival 2025**, Madagascar's biggest music festival! This exciting event will take place on the beautiful beaches of Nosy Be, featuring both international artists and beloved Malagasy musicians.
