@@ -12,6 +12,8 @@
 3. Open `index.html` in your web browser
 4. Keep both open side by side for live preview!
 
+**Optional**: If you're familiar with npm, you can run `npm start` from the project root for quick setup instructions, or `npm run serve` to start a local server.
+
 ### Step 2: Start Building!
 Open `starter-files/index.html` and follow the step-by-step instructions inside the file.
 
@@ -62,6 +64,7 @@ Add the finishing touches with social links and sponsor information.
 2. **Responsive Check**: Resize your browser window - does everything adapt?
 3. **Mobile Check**: Use browser dev tools to simulate mobile devices
 4. **Final Checklist**: Use `tests/visual-checklist.md` to verify everything
+5. **npm test**: Run this command from the project root for a quick testing guide
 
 ## Ready to Start?
 

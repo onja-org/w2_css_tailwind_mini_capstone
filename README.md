@@ -20,16 +20,18 @@ By the end of this project, you'll master:
 Your project has this structure:
 ```
 w2_css_tailwind_mini_capstone/
-├── lab/                      ← Lab workspace
-│   ├── starter-files/        ← Your coding workspace!
-│   │   ├── index.html        ← Main file to edit
-│   │   ├── images/          ← Festival images
-│   │   └── guidelines.md     ← Design requirements
-│   ├── solution/            ← Final solution (peek only if stuck!)
-│   ├── tests/               ← Checklist to verify your work
-│   └── README.md            ← Lab instructions
-├── assets/                  ← Project assets
-└── README.md              ← This file!
+├── package.json             ← Project configuration
+├── .gitignore              ← Git ignore patterns
+├── lab/                     ← Lab workspace
+│   ├── starter-files/       ← Your coding workspace!
+│   │   ├── index.html       ← Main file to edit
+│   │   ├── images/         ← Festival images
+│   │   └── guidelines.md    ← Design requirements
+│   ├── solution/           ← Final solution (peek only if stuck!)
+│   ├── tests/              ← Checklist to verify your work
+│   └── README.md           ← Lab instructions
+├── assets/                 ← Project assets
+└── README.md             ← This file!
 ```
 
 ## Time Estimate
@@ -74,6 +76,32 @@ Your website must look amazing on:
 - **Headlines**: Bold and impactful
 - **Body text**: Clean and readable
 - **Artist names**: Stylish and prominent
+
+## Getting Started
+
+### Quick Setup
+1. **Clone or download** this project to your computer
+2. **Navigate to the project folder** in your terminal or file explorer
+3. **Open the project** in VS Code or your preferred text editor
+4. **Start coding** by opening `lab/starter-files/index.html`
+
+### Optional: Using npm scripts
+This project includes helpful npm scripts for development:
+```bash
+# See setup instructions
+npm start
+
+# View testing checklist
+npm test
+
+# Start a local server (requires Python)
+npm run serve
+```
+
+### Manual Setup (Recommended for beginners)
+- Simply open `lab/starter-files/index.html` in your web browser
+- Open the same file in your text editor
+- Keep both open side by side for live editing!
 
 ---
 

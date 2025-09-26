@@ -2,9 +2,9 @@
   "name": "soundwave-festival-tailwind-capstone",
   "version": "1.0.0",
   "description": "SoundWave Festival 2025 - Tailwind CSS Mini Capstone Project for Madagascar students",
-  "main": "starter-files/index.html",
+  "main": "lab/starter-files/index.html",
   "scripts": {
-    "start": "echo 'Open starter-files/index.html in your web browser to begin!' && echo 'For live development, consider using Live Server extension in VS Code'",
+    "start": "echo 'Open lab/starter-files/index.html in your web browser to begin!' && echo 'For live development, consider using Live Server extension in VS Code'",
     "test": "echo 'Testing checklist: Open tests/visual-checklist.md and verify each item manually in your browser'",
     "serve": "python3 -m http.server 8000 || python -m http.server 8000 || echo 'Install Python to use local server, or open index.html directly in browser'",
     "validate": "echo 'Manual validation: 1) Open browser dev tools, 2) Check responsive design, 3) Verify no console errors, 4) Test all breakpoints'"
@@ -45,7 +45,7 @@
   },
   "studentInstructions": {
     "setup": [
-      "1. Open starter-files/index.html in VS Code or your preferred editor",
+      "1. Open lab/starter-files/index.html in VS Code or your preferred editor",
       "2. Open the same file in your web browser",
       "3. Keep both open side by side for live editing",
       "4. Follow the instructions in the HTML comments"
@@ -58,9 +58,9 @@
     ],
     "help": [
       "- Read README.md for complete project overview",
-      "- Check guidelines.md for design specifications",
-      "- Use tests/visual-checklist.md to verify your progress",
-      "- solution/ folder contains complete reference (use only if stuck!)"
+      "- Check lab/starter-files/guidelines.md for design specifications",
+      "- Use lab/tests/visual-checklist.md to verify your progress",
+      "- lab/solution/ folder contains complete reference (use only if stuck!)"
     ]
   },
   "culturalNotes": {
